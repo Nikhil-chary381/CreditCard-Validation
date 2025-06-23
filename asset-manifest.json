@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CreditCard-Validation/static/css/main.6eacf030.css",
+    "main.js": "/CreditCard-Validation/static/js/main.0c988848.js",
+    "static/js/453.5c8a8640.chunk.js": "/CreditCard-Validation/static/js/453.5c8a8640.chunk.js",
+    "index.html": "/CreditCard-Validation/index.html",
+    "main.6eacf030.css.map": "/CreditCard-Validation/static/css/main.6eacf030.css.map",
+    "main.0c988848.js.map": "/CreditCard-Validation/static/js/main.0c988848.js.map",
+    "453.5c8a8640.chunk.js.map": "/CreditCard-Validation/static/js/453.5c8a8640.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6eacf030.css",
+    "static/js/main.0c988848.js"
+  ]
+}
