@@ -1,0 +1,18 @@
+body{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/2089151.jpg");
+    background-size: cover;
+}
+.box{
+  height:auto;
+  width:auto;
+  background-color: yellowgreen;
+  max-width:max-content;
+}
+.fields{
+  padding:30px;
+}

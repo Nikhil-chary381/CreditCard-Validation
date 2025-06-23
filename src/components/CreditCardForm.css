@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.card-form {
+  max-width: 420px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-form:hover {
+  transform: translateY(-5px);
+}
+
+.card-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.4rem;
+  margin-right: 50px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+:placeholder-shown{
+    color: #ccc;
+}
+.form-group input:focus {
+  outline: none;
+  border-color:greenyellow;
+  box-shadow: 0 0 0 3px rgba(29, 135, 240, 0.2);
+}
+
+.card-type {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+.error {
+  color: #e63946;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.85rem;
+  background:green;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  box-shadow: 1px 1px 1px 1px gray;
+  transform: scale(1.02);
+}
+
+@media (max-width: 500px) {
+  .card-form {
+    padding: 1.2rem;
+    margin: 1.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
